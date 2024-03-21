@@ -11,11 +11,9 @@ public class Exercicio13{
         int b = scanner.nextInt();
 
         System.out.print("Digite o operador (+, -, *, /): ");
-        String operador = scanner.next();
+        char operador = scanner.next().charAt(0);
 
-        int resultado = 0;
-
-        string(operador) {
+        switch (operador) {
             case '+':
                 resultado = a + b;
                 break;
@@ -30,7 +28,7 @@ public class Exercicio13{
                 break;
             default:
                 System.out.println("Operador não definido.");
-                return; // Encerra o programa se o operador não for válido
+                return; 
         }
 
         System.out.println("Resultado da operação: " + resultado);
