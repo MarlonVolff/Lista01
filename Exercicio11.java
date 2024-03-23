@@ -10,7 +10,6 @@ public class Exercicio11 {
         int num2 = leitor.nextInt();
         System.out.println("Digite o terceiro número: ");
         int num3 = leitor.nextInt();
-
         int menor, meio, maior;
 
         if (num1 < num2 && num1 < num3) {
