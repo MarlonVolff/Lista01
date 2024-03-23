@@ -9,7 +9,7 @@ public class Exercicio18 {
      System.out.print("Informe a segunda nota: ");
      double nota2 = leitor.nextDouble();
      System.out.print("informe a terceira nota: ");
-     double nota3 = leitor.nextDouble();
+     double nota3 = leitor.nextDouble(); //double para uso de Decimal 
 
      double medHarmonica = 3 / ((1 / nota1) + (1 / nota2) + (1 / nota3));
 
