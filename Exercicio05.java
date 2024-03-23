@@ -20,7 +20,6 @@ public class Exercicio05 {
         System.out.println("Valores trocados:");
         System.out.println("A: " + b);
         System.out.println("B: " + a);
-
         leitor.close();
     }
 }
