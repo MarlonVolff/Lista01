@@ -24,7 +24,7 @@ public class Exercicio10{
                 System.out.println("Cinco");
                 break;
             default:
-                System.out.println("Numero invalido!");
+                System.out.println("Número invalido!");
         }
     }
 }
