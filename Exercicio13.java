@@ -6,10 +6,8 @@ public class Exercicio13{
 
         System.out.print("Digite o valor de A: ");
         int a = scanner.nextInt();
-
         System.out.print("Digite o valor de B: ");
         int b = scanner.nextInt();
-
         System.out.print("Digite o operador (+, -, *, /): ");
         char operador = scanner.next().charAt(0);
 
