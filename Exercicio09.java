@@ -13,10 +13,10 @@ public class Exercicio09{
             System.out.println("Os numeros sao iguais");
             }else{
             System.out.println("Os numeros sao diferentes");
-            if(a > b){
+        if(a > b){
             System.out.println("O número A é maior que o número B.");
             } else {
-                System.out.println("O número B é maior que o número A.");
+            System.out.println("O número B é maior que o número A.");
             }
         }
     }
