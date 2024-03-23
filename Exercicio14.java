@@ -6,10 +6,8 @@ public class Exercicio14{
         
         System.out.print("Digite o primeiro termo: ");
         int a1 = leitor.nextInt();
-
         System.out.print("Digite a razão: ");
         int n = leitor.nextInt();
-
         System.out.print("Digite o valor de n: ");
         int r = leitor.nextInt();
 
