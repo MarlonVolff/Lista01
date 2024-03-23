@@ -5,17 +5,14 @@ public class Exercicio20{
         Scanner leitor = new Scanner(System.in);
 
         System.out.print("Informe o tempo de viagem: ");
-        double tempoViagem = scanner.nextDouble();
-
+        double tempoViagem = leitor.nextDouble();
         System.out.print("Informe a velocidade média: ");
-        double veloMed = scanner.nextDouble();
+        double veloMed = leitor.nextDouble();
 
         double distancia = tempoViagem * veloMed;
+        double litrosCombus = distancia / 12.0;
 
-        double litrosCombustivel = distancia / 12.0;
-
-
-        System.out.printf("Quantidade de litros do combustível que gasta sera; " + litrosCombustivel);
+        System.out.printf("Quantidade de litros do combustível que gasta sera: " + litrosCombus);
 
         leitor.close();
     }
