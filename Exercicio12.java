@@ -4,7 +4,7 @@ public class Exercicio12{
     public static void executar(){
         Scanner leitor = new Scanner(System.in);
 
-        String[] meses = {
+        String[] meses = { //String array!
             "Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho",
             "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"
         };
@@ -13,7 +13,7 @@ public class Exercicio12{
         int numMes = leitor.nextInt();
 
         if (numMes >= 1 && numMes <= 12) {
-            System.out.println("O mÊs correspondente é: " + meses[numMes - 1]);
+            System.out.println("O mês correspondente é: " + meses[numMes - 1]);
         } else {
             System.out.println("Mês inválido");
         }
