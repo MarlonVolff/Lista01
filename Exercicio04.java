@@ -12,7 +12,7 @@ public class Exercicio04 {
 
         int soma = num1 + num2;
         int sub = num1 - num2;
-        int multi= num1 * num2;
+        int multi = num1 * num2;
         int divi = num1 / num2;
 
         System.out.println("Soma: " + soma);
