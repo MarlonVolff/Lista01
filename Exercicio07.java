@@ -12,6 +12,7 @@ public class Exercicio07{
             } else {
             System.out.println("O número esta fora do intervalo entre 100 e 200.");
         }
+        
         leitor.close();
     }
 }
